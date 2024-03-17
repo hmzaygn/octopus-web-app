@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import OctNavbar from "../components/OctNavbar";
+import OctNavbar from "../components/OctNavbar/OctNavbar";
 import Dashboard from "../pages/Dashboard";
 import Finance from "../pages/Finance";
 

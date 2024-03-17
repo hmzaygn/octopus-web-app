@@ -1,0 +1,20 @@
+.box {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.link-button {
+    color: black !important;
+}
+
+.box:hover {
+    transform: rotateY(360deg) !important;
+    box-shadow: 0px 0px 50px 10px rgb(255, 255, 255) !important;
+}
