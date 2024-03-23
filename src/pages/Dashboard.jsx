@@ -1,10 +1,14 @@
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import React from "react";
 
 const Dashboard = () => {
   return (
     <Box>
-      <p>Dashboard</p>
+      <Grid container>
+        <Grid item xs={12}>
+          <p style={{ fontSize: "10rem" }}>OCTOPUS</p>
+        </Grid>
+      </Grid>
     </Box>
   );
 };

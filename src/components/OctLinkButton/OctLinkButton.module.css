@@ -1,5 +1,5 @@
 .box {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50%;
     margin-right: 5px;
     width: 45px;
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .5s;
+    transition: all 1s;
 }
 
 .link-button {
@@ -16,5 +16,5 @@
 
 .box:hover {
     transform: rotateY(360deg) !important;
-    box-shadow: 0px 0px 50px 10px rgb(255, 255, 255) !important;
+    box-shadow: 0px 0px 50px 10px rgb(0, 0, 0) !important;
 }

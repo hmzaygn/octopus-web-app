@@ -11,14 +11,14 @@ function App() {
     let palette = {
       mode: "light",
       primary: {
-        main: "#e79937",
+        main: "#feecdc",
       },
       secondary: {
-        main: "#8464c7",
+        main: "#28293d",
       },
       background: {
-        default: "#e79937",
-        paper: "#e79937",
+        default: "#feecdc",
+        paper: "#feecdc",
       },
     };
 
@@ -26,14 +26,14 @@ function App() {
       palette = {
         mode: "dark",
         primary: {
-          main: "#8464c7",
+          main: "#28293d",
         },
         secondary: {
-          main: "#e79937",
+          main: "#feecdc",
         },
         background: {
-          default: "#8464c7",
-          paper: "#8464c7",
+          default: "#28293d",
+          paper: "#28293d",
         },
       };
     }
